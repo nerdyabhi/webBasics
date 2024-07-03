@@ -1,0 +1,32 @@
+*{
+   box-sizing: border-box;
+   /* margin: auto; */
+}
+
+.container
+{
+    border: 2px solid red;
+    width: 50vh;
+    height: 25vh;
+}
+
+.box1
+{
+    border: 2px solid green;
+    width: 50%;
+    /* width: 50vh; vh = visual height : %age of height visible */
+    margin: auto;
+}
+
+
+h1
+{ 
+    /* usually h1 is 2 em or 32px but , em  is related to it's parent  */
+    /* so it will take size  as size of parent * size given   */
+
+
+    /* font-size: 2em; uncomment */
+    
+
+    font-size: 2rem; /* related to root not to the parent */ 
+}

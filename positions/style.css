@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    height: 400vh;
+}
+
+.container
+{
+    width: 50vh;
+    border:2px solid black;
+    margin:25%;
+    height: 50vh;
+    /* position: relative; */
+}
+
+.box1{
+    background-color: red;
+    width: 25%;
+    height: 25%;
+    padding: 10px;
+    border: 2px solid blue;
+    margin: 4px;
+    color: white;
+    /* position: relative; related to conatainer */
+    top: -60px;
+    left: -60px;
+
+}
+
+.box2{
+    background-color: lime;
+    width: 10%;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid blue;
+    margin: 4px;
+    color: white;
+    position: sticky ;
+    top:200px;
+   
+}
+
+.box3{
+    position: fixed;
+    background-color: aqua;
+    width: 10%;
+    height: 8%;
+    padding: 10px;
+    border: 2px solid blue;
+    margin: 4px;
+    color: white;
+}

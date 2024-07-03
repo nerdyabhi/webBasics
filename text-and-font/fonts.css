@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    border:2px solid black;
+    font-family: "Silkscreen", cursive;
+
+}
+.heading:hover
+{
+    color: aqua;
+}
+
+.paragraph
+{
+    text-indent: 5px;
+    margin: 10px;
+    line-height: 20px;
+}

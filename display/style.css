@@ -1,0 +1,32 @@
+*
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+ul
+{
+    background-color: gray;
+    text-align: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+li
+{
+    display: inline-block;
+    margin-bottom: 19px;
+    color: white;
+    margin-right: 40px;
+       
+    cursor: pointer;
+    transition: text-decoration 3s 1s ;
+}
+
+li:hover
+{
+    text-decoration: underline;
+
+}

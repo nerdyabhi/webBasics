@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: auto;
+    border: 2px solid red;
+    height: 40vh;
+    display: flex;
+    /* flex direction */
+
+
+    /* flex-direction: column-reverse;
+    flex-direction: column;
+    flex-direction: row; */
+    flex-direction: row-reverse;
+
+    /* flex wrap */
+    flex-wrap: wrap;
+
+
+    gap:10px; 
+    /* row-gap: 0px;
+    column-gap :4px; */
+
+
+    /* justify-content */
+    justify-content: space-around;
+
+    /* center*/
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.box:hover
+{
+    background-color:violet
+}
+
+.box
+{
+    background-color: aquamarine;
+    border: 1px solid green;
+    padding: 5px;
+    width: 80px;
+    height: 5vh;
+}
