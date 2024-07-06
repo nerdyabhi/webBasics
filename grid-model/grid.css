@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.container
+{
+    border: 2px solid red;
+    height: 50vh;
+    display: grid;
+    padding: 10px;
+   column-gap: 5px;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   row-gap: 5px;
+    grid-template-areas: "hr hr hr hr"
+                         "sr main main main"
+                         "sr main main main "
+                         "fr fr fr fr";
+}
+
+.box
+{
+    border: 2px solid green;
+    padding: 10px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+#box-1
+{
+    grid-area: hr;
+    background-color: aquamarine;
+
+}
+#box-2
+{
+    grid-area: sr;
+}
+
+#box-3
+{
+    grid-area: main;
+}
+#box-4
+{
+    grid-area: fr;
+}

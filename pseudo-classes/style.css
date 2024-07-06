@@ -1,0 +1,57 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Pseudo -classes */
+
+/* 
+    1. Visited
+    2. Link
+    3. Hover
+    4. Active
+    5. First-child
+    6. last-child
+    7. n-th child 
+*/
+
+
+a:link 
+{
+    color: orange;
+}
+
+a:hover
+{
+    color: aqua;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: red;
+}
+
+a:visited
+{
+    background-color: black;
+}
+
+
+ul li:first-child{
+    background-color: aquamarine;
+}
+
+ul li:nth-child(2n+1) /* Takes an+b as input*/
+{
+    color: red;
+}
+
+/* pseudo -elements */
+
+/* 
+    1. ::first-letter
+    2. ::first-line
+    3. ::before
+    4. ::after
+ */
+

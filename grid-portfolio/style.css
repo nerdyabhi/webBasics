@@ -1,0 +1,114 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+
+body{
+    background:linear-gradient(to right, #041308, #0b3317);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4
+{
+    font-family: cursive;
+    font-size: 0.8rem;
+}
+
+.container
+{
+    /* border: 2px solid white; */
+    gap: 20px;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+}
+.text
+{
+    /* max-width: 47vw; */
+    text-align: center;
+    flex-basis: 30%;
+
+}
+.text h4{
+    margin-top: 10px;
+}
+
+.grid-area
+{
+    /* border: 2px solid red */
+    flex-basis: 50%;
+    display: grid;
+    grid-auto-rows: 120px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+
+
+
+.box
+{
+    /* border: 2px solid whitesmoke; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: top;
+    background-size: cover;
+    background-color: #222;
+    background-blend-mode:soft-light;
+    transition:all 0.3s ease-out;
+}
+
+.box:hover
+{
+    background-position: bottom;
+    background-blend-mode: normal;
+    background-color:#22222200;
+}
+
+.row-2
+{
+    grid-row: span 2;
+}
+
+.col-2
+{
+    grid-column: span 2;
+}
+
+
+/* MEDIA QUERIES FOR RESPONSIVE DESIGN  */
+
+@media screen and (max-width:1024px)
+{
+    .container{
+        flex-direction: column;
+    }
+
+    .grid-area
+    {
+        width: 100%;
+        grid-auto-rows: 220px;
+       
+    }
+    .box
+    {
+        grid-row: span 1;
+        grid-column: span 3;
+        padding-block: 10px;
+        margin:5px 10px;
+    }
+}
