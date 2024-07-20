@@ -1,0 +1,44 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container
+{
+    background-color: rgb(75, 45, 128);
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+/* Transition properties */
+
+/* 
+    1. Scale
+    2. Skew
+    3. translate 
+    4. rotate
+    5. transform origin 
+ */
+
+.box
+{
+    background-color: gray;
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* transform: scale(1.5); */
+    /* transform: translate(50px , 200px); */
+    
+}
+
